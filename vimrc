@@ -38,6 +38,7 @@ Plugin 'keith/swift.vim'
 Plugin 'altercation/vim-colors-solarized'
 Plugin 'scrooloose/nerdtree'
 Plugin 'herrbischoff/cobalt2.vim'
+Plugin 'tpope/vim-fugitive'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -123,7 +124,7 @@ set softtabstop=4
 set tabstop=4
 set ruler " 현재 커서 위치 표시
 set incsearch
-set statusline=\ %<%l:%v\ [%P]%=%a\ %h%m%r\ %F\
+"set statusline=\ %<%l:%v\ [%P]%=%a\ %h%m%r\ %F\
 " 마지막으로 수정된 곳에 커서를 위치함
 au BufReadPost *
 \ if line("'\"") > 0 && line("'\"") <= line("$") |
