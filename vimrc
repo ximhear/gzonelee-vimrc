@@ -94,6 +94,13 @@ call plug#begin('~/.vim/plugged')
 
 Plug 'https://github.com/keith/swift.vim.git'
 Plug 'https://github.com/vim-syntastic/syntastic.git'
+Plug 'tpope/vim-rails'
+Plug 'tpope/vim-rake'
+Plug 'tpope/vim-bundler'
+Plug 'tpope/vim-projectionist'
+Plug 'jlanzarotta/bufexplorer'
+Plug 'scrooloose/nerdcommenter'
+Plug 'Valloric/YouCompleteMe'
 
 " Initialize plugin system
 call plug#end()
@@ -145,4 +152,5 @@ endif
 
 let g:syntastic_swift_checkers = ['swiftpm', 'swiftlint']
 
+set tags=./tags,tags
 
