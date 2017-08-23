@@ -100,7 +100,7 @@ Plug 'tpope/vim-bundler'
 Plug 'tpope/vim-projectionist'
 Plug 'jlanzarotta/bufexplorer'
 Plug 'scrooloose/nerdcommenter'
-Plug 'Valloric/YouCompleteMe'
+" Plug 'Valloric/YouCompleteMe'
 
 " Initialize plugin system
 call plug#end()
