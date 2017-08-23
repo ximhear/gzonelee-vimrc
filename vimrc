@@ -94,6 +94,13 @@ call plug#begin('~/.vim/plugged')
 
 Plug 'https://github.com/keith/swift.vim.git'
 Plug 'https://github.com/vim-syntastic/syntastic.git'
+Plug 'itchyny/lightline.vim'
+Plug 'tpope/vim-bundler'
+Plug 'tpope/vim-endwise'
+Plug 'tpope/vim-rails'
+Plug 'vim-ruby/vim-ruby'
+Plug 'tpope/vim-fugitive'
+Plug 'ecomba/vim-ruby-refactoring'
 
 " Initialize plugin system
 call plug#end()
