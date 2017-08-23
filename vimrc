@@ -101,6 +101,11 @@ Plug 'tpope/vim-rails'
 Plug 'vim-ruby/vim-ruby'
 Plug 'tpope/vim-fugitive'
 Plug 'ecomba/vim-ruby-refactoring'
+Plug 'tpope/vim-rake'
+Plug 'tpope/vim-projectionist'
+Plug 'jlanzarotta/bufexplorer'
+Plug 'scrooloose/nerdcommenter'
+" Plug 'Valloric/YouCompleteMe'
 
 " Initialize plugin system
 call plug#end()
@@ -152,4 +157,5 @@ endif
 
 let g:syntastic_swift_checkers = ['swiftpm', 'swiftlint']
 
+set tags=./tags,tags
 
